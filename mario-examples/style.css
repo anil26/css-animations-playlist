@@ -40,7 +40,7 @@ html, body{
 }
 .mario{
   position: absolute;
-  top:-40px;
+  top:-120px;
   left : 0px;
   animation-name: drive;
   animation-duration: 3s;
@@ -58,6 +58,16 @@ html, body{
 }
 /*// ELEMENTS TO ANIMATE //*/
 
+.luigi{
+  position: absolute;
+  top : -30px;
+  left: 0px;
+  animation-name: drive;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
 
 
 /*// KEYFRAMES //*/
