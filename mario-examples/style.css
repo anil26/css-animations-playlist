@@ -44,16 +44,16 @@ html, body{
   left : 0px;
   animation-name: drive;
   animation-duration: 3s;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 
 @keyframes drive{
   from{
-    transform: translateX(200px);
+    transform: translateX(-200px);
   }
   to{
-    transform: translateX(900px);
+    transform: translateX(1550px);
   }
 }
 /*// ELEMENTS TO ANIMATE //*/
