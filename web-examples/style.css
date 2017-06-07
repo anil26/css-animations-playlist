@@ -97,6 +97,35 @@ button{
 
 /*// BASKET BASE STYLES //*/
 
+.zoom{
+  position: absolute;
+  /*top : 40%;*/
+  right: 30%;
+  width: 60px;
+  opacity: 0;
+  animation: zoom 2s ease forwards;
+}
+@keyframes zoom {
+  0%{
+    opacity: 0
+  }
+  50%{
+    opacity: 1,
+    right : 40px;
+    top: 40px;
+  }
+  75%{
+    opacity: 1,
+    right: 20px;
+    top : 20px;
+  }
+  100%{
+    opacity: 1;
+    right : 10px;
+    top : 0;
+  }
+}
+
 header{
   padding: 10px 20px;
   border-bottom: 1px solid #eee;
@@ -117,6 +146,7 @@ header:after{
   width: 30%;
   margin: 30px 1.5%;
   text-align: center;
+  position: relative;
 }
 .basket button{
   border-radius: 10px;
